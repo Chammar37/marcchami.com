@@ -8,15 +8,14 @@
   }
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 196, 196, 196;
-  --background-end-rgb: 255, 255, 255;
+  background-color: #80989B;
+  opacity: 0.39;
+
 }
 
 
 body {
-    font-family: 'B612 Mono', monospace;
-    background-color: #f3f4f6;
+    /* font-family: 'B612 Mono', monospace; */
 
 }
 
