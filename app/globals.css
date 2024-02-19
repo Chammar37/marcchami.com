@@ -8,8 +8,8 @@
   }
 
 :root {
-  background-color: #80989B;
-  opacity: 0.39;
+  background-color: #d4dcda;
+  /* opacity: 0.39; */
 
 }
 
@@ -22,5 +22,5 @@ body {
 .main-div{
   font-family: B612 Mono, monospace;
   
-  
+
 }
