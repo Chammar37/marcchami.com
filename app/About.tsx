@@ -16,15 +16,16 @@ const About = () => {
                 <p>\\ GET TO KNOW ME MORE \\</p> <br></br> 
 
 
-                <p > 
+                <p> 
                 My unique background blending the discipline of martial arts with creativity of music, has shaped my approach to overcoming challenges.
-                As a 2nd-degree black belt, and pianist trained by the Royal Conservatory of Music, I've learned the value of hard work, resilience and pursuit of excellence.
+                As a 2nd-degree black belt, and pianist trained by the Royal Conservatory of Music, I&apos;ve learned the value of hard work, resilience and pursuit of excellence.
                 These principles guided me through my Computer Science BS.c, achieved with Honors. 
                 I always desire to be the dumbest in the room, hoping to learn from others. 
                 </p>
                 <br></br>
                 <blockquote className="text-lg italic font-semibold text-gray-900 dark:text-white">
-                    "Nobody can tell me how to think, but everyone has a lesson to teach me"
+                    &quot;Nobody can tell me how to think, but everyone has a lesson to teach me&quot;
+                    <br></br>
                     <span className="text-xs"> - Lex Fridman </span>
                 </blockquote>
 
