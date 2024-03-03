@@ -2,7 +2,7 @@ const Projects = () => {
     return (
         <div className="flex-col space-y-4 text-primary"> 
         <span className=""> Projects {'>'} </span>
-            <div className="ml-3/20 mr-3/20 text-primary ">
+            <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary ">
                 <div> [Album Recommender] 
                     <form target="_blank" action="https://github.com/Chammar37/Album-Recommender" className="inline-block">
                             <button >
@@ -22,7 +22,7 @@ const Projects = () => {
             </div>
             {/* leading-6 text-gray-600 whitespace-no-wrap bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none"> */}
 
-            <div className="ml-3/20 mr-3/20 text-primary" >
+            <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary" >
                 <div>[interviewprep.ai]
                 <form target="_blank" action="https://github.com/indeep99/interview-preparation" className="inline-block">
                     <button><svg className="inline-block ml-1" height="17" width="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="5.73685" y="12.0526" width="12.5263" height="8.94737" rx="2" stroke="#6C848D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect> <path d="M7.52631 12.0526V8.47368C7.52631 6.00294 9.52924 4 12 4C14.4707 4 16.4737 6.00294 16.4737 8.47368V12.0526" stroke="#6C848D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
@@ -45,7 +45,7 @@ const Projects = () => {
                 </div>    
             </div>
 
-            <div className="ml-3/20 mr-3/20 text-primary ">
+            <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary ">
                 <div> [Scrap.it]
                 <form target="_blank" action="https://github.com/Chammar37/Scrap.it" className="inline-block">
                     <button><svg className="inline-block ml-1" height="17" width="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="5.73685" y="12.0526" width="12.5263" height="8.94737" rx="2" stroke="#6C848D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect> <path d="M7.52631 12.0526V8.47368C7.52631 6.00294 9.52924 4 12 4C14.4707 4 16.4737 6.00294 16.4737 8.47368V12.0526" stroke="#6C848D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
@@ -62,7 +62,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="ml-3/20 mr-3/20 text-primary ">
+            <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary ">
                 <div> [NBA Analytics]
                     <form target="_blank" action="https://github.com/Chammar37/NBA-Analytics" className="inline-block">
                             <button>
@@ -92,7 +92,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="ml-3/20 mr-3/20 text-primary ">
+            <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary ">
                 <div> [Twitter Trends]
                     <form target="_blank" action="https://github.com/Chammar37/Twitter-Sentimental-Analysis" className="inline-block">    
                         <button><svg className="inline-block ml-1 mb-1" width="16" height="16"viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 4L12 12M20 4V8.5M20 4H15.5M19 12.5V16.8C19 17.9201 19 18.4802 18.782 18.908C18.5903 19.2843 18.2843 19.5903 17.908 19.782C17.4802 20 16.9201 20 15.8 20H7.2C6.0799 20 5.51984 20 5.09202 19.782C4.71569 19.5903 4.40973 19.2843 4.21799 18.908C4 18.4802 4 17.9201 4 16.8V8.2C4 7.0799 4 6.51984 4.21799 6.09202C4.40973 5.71569 4.71569 5.40973 5.09202 5.21799C5.51984 5 6.07989 5 7.2 5H11.5" stroke="#6C848D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>

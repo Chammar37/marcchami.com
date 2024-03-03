@@ -2,7 +2,7 @@ const About = () => {
 
     return (
         <div className="flex-col space-y-4 text-primary"> <br></br> <span className=""> About {'>'} </span>
-            <div className="ml-3/20 mr-3/20 text-primary"> 
+            <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary"> 
 
                 
                 <p > 
@@ -13,28 +13,30 @@ const About = () => {
                 
                 </p> 
                 <br></br><br></br>
-                <p>\\ GET TO KNOW ME MORE \\</p> <br></br> 
+                </div>
+                <p className="ml-1/10 mr-1/10 text-primary">\\ GET TO KNOW ME MORE //</p> <br></br> 
 
+                <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary"> 
 
-                <p> 
-                My unique background blending the discipline of martial arts with creativity of music, has shaped my approach to overcoming challenges.
-                As a 2nd-degree black belt, and pianist trained by the Royal Conservatory of Music, I&apos;ve learned the value of hard work, resilience and pursuit of excellence.
-                These principles guided me through my Computer Science BS.c, achieved with Honors. 
-                I always desire to be the dumbest in the room, hoping to learn from others. 
-                </p>
-                <br></br>
-                <blockquote className="text-lg italic font-semibold text-gray-900 dark:text-white">
-                    &quot;Nobody can tell me how to think, but everyone has a lesson to teach me&quot;
+                    <p> 
+                    My unique background blending the discipline of martial arts with creativity of music, has shaped my approach to overcoming challenges.
+                    As a 2nd-degree black belt, and pianist trained by the Royal Conservatory of Music, I&apos;ve learned the value of hard work, resilience and pursuit of excellence.
+                    These principles guided me through my Computer Science BS.c, achieved with Honors. 
+                    I always desire to be the dumbest in the room, hoping to learn from others. 
+                    </p>
                     <br></br>
-                    <span className="text-xs"> - Lex Fridman </span>
-                </blockquote>
-
+                    <blockquote className="text-lg italic font-semibold text-gray-900 dark:text-white">
+                        &quot;Nobody can tell me how to think, but everyone has a lesson to teach me&quot;
+                        <br></br>
+                        <span className="text-xs"> - Lex Fridman </span>
+                    </blockquote>
+                </div>
                
                 <br></br> 
                 <br></br>
                 <br></br>
                 <br></br>
-            </div>
+            
         </div>
         
     );

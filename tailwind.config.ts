@@ -10,7 +10,9 @@ const config: Config = {
     extend: {
       margin:
       {
+        '1/10': '10%',
         '3/20': '15%',
+        '2/10': '20%',
       },
     },
     colors: {
