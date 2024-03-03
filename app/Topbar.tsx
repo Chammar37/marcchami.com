@@ -6,7 +6,7 @@ import './globals.css';
 const Topbar = () => {
     return (
         <>
-            <div className="grid grid-cols-1 h-52 md:grid-cols-3 min-h-96">
+            <div className="grid grid-cols-1 h-52 md:grid-cols-3 md:min-h-56 ">
                 <div className="hidden md:flex col-span-1">
                     <Sidebar/>
                 </div>    
