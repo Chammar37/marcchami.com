@@ -2,15 +2,40 @@ const About = () => {
 
     return (
         <div className="flex-col space-y-4 text-primary"> <br></br> <span className=""> About {'>'} </span>
-            <div className="ml-3/20 text-primary"> 
-                <p>\\ GET TO KNOW ME \\</p> <br></br> <br></br>
-                <p className="mr-3/20"> I am committed to making a positive change in the world during my lifetime, and I believe that starts with staying persistent and immersing myself in a working environment with smart minds will help me accomplish my aspirations.</p> <br></br>
-                <p className="mr-3/20"> My background in martial arts, where I achieved a 2nd-degree black belt, and my teacher-level piano skills acquired through the Royal Conservatory of Music, have instilled in me a strong work ethic, discipline, and gratitude for every opportunity. And I desire to be the dumbest in the room, always looking to learn from others! My Moto: Nobody can tell me how to think, but everyone has a lesson to teach me - Lex Friedman</p>
+            <div className="ml-3/20 mr-3/20 text-primary"> 
+
+                
+                <p > 
+                A proven Software Engineer, delivering high-quality software solutions in a professional setting for RBC, as well as a diverse portfolio of 
+                innovative projects for personal growth. <br></br> <br></br>
+                I am deeply committed to creating a positive change in the world, a journey that begins with persistentence and an open mind. 
+                My goal is to immerse myself in collaborative and innovative environments, surronded by other individuals aiming to learn and grow.
+                
+                </p> 
+                <br></br><br></br>
+                <p>\\ GET TO KNOW ME MORE \\</p> <br></br> 
+
+
+                <p > 
+                My unique background blending the discipline of martial arts with creativity of music, has shaped my approach to overcoming challenges.
+                As a 2nd-degree black belt, and pianist trained by the Royal Conservatory of Music, I've learned the value of hard work, resilience and pursuit of excellence.
+                These principles guided me through my Computer Science BS.c, achieved with Honors. 
+                I always desire to be the dumbest in the room, hoping to learn from others. 
+                </p>
+                <br></br>
+                <blockquote className="text-lg italic font-semibold text-gray-900 dark:text-white">
+                    "Nobody can tell me how to think, but everyone has a lesson to teach me"
+                    <span className="text-xs"> - Lex Fridman </span>
+                </blockquote>
+
+               
+                <br></br> 
                 <br></br>
                 <br></br>
                 <br></br>
             </div>
         </div>
+        
     );
 }
 
