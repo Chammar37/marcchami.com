@@ -14,7 +14,7 @@ const About = () => {
                 </p> 
                 <br></br><br></br>
                 </div>
-                <p className="ml-1/10 mr-1/10 text-primary">\\ GET TO KNOW ME MORE //</p> <br></br> 
+                <p className="ml-3/20 mr-1/10 md:ml-3/20 md:mr-3/20 text-primary">\\ GET TO KNOW ME MORE //</p> <br></br> 
 
                 <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary"> 
 
