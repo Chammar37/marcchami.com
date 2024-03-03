@@ -17,8 +17,15 @@ export default function RootLayout({
 }>) {
   return (
     <>
+      <Head>
+        <title>marcchami.com</title>
+        <link rel="icon" href="/favicon.ico"/>
+      </Head>
+
       <html lang="en">
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          {children}
+          </body>
       </html>
 
     </>

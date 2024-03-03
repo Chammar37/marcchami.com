@@ -1,6 +1,7 @@
 const Projects = () => {
     return (
-        <div className="flex-col space-y-4 text-primary"> <span> Projects {'>'} </span>
+        <div className="flex-col space-y-4 text-primary"> 
+        <span className=""> Projects {'>'} </span>
             <div className="ml-3/20 mr-3/20 text-primary ">
                 <div> [Album Recommender] 
                     <form target="_blank" action="https://github.com/Chammar37/Album-Recommender" className="inline-block">
@@ -19,7 +20,8 @@ const Projects = () => {
                     </button>          
                 </div>          
             </div>
-            
+            {/* leading-6 text-gray-600 whitespace-no-wrap bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none"> */}
+
             <div className="ml-3/20 mr-3/20 text-primary" >
                 <div>[interviewprep.ai]
                 <form target="_blank" action="https://github.com/indeep99/interview-preparation" className="inline-block">
