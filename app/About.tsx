@@ -22,7 +22,7 @@ const About = () => {
                     My unique background blending the discipline of martial arts with creativity of music, has shaped my approach to overcoming challenges.
                     As a 2nd-degree black belt, and pianist trained by the Royal Conservatory of Music, I&apos;ve learned the value of hard work, resilience and pursuit of excellence.
                     These principles guided me through my Computer Science BS.c, achieved with Honors. 
-                    I always desire to be the dumbest in the room, hoping to learn from others. 
+                    I always approach challenges and collaboration with humility, hoping to learn from others. 
                     </p>
                     <br></br>
                     <blockquote className="text-lg italic font-semibold text-gray-900 dark:text-white">
