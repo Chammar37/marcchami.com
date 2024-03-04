@@ -1,7 +1,7 @@
 const Projects = () => {
     return (
         <div className="flex-col space-y-4 text-primary"> 
-        <span className=""> Projects {'>'} </span>
+        <span id="projects"> Projects {'>'} </span>
             <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary ">
                 <div> [Album Recommender] 
                     <form target="_blank" action="https://github.com/Chammar37/Album-Recommender" className="inline-block">

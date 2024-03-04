@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import './globals.css';
 
 const Sidebar = () => {
@@ -5,8 +6,8 @@ const Sidebar = () => {
     <div className="p-2 w-64 text-primary">
         <nav className="p-7 space-y-4">
           <div className="text-gray-500 hover:rounded-md">marcchami.com</div>
-          <div className="text-xs hover:text-gray-500">Projects</div>
-          <div className="text-xs hover:font-bold">About</div>
+          <div className="text-xs hover:text-gray-500"><Link href="#projects">Projects </Link> </div>
+          <div className="text-xs hover:font-bold"><Link href="#about">About</Link></div>
         </nav>
     </div>
     );
