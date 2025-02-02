@@ -21,7 +21,7 @@ const About = () => {
                     <p> 
                     My experience blending multiple disciplines from martial arts to music best describes my personality and how I approach challenges.
                     As a 2nd-degree black belt, and pianist trained by the Royal Conservatory of Music, I&apos;ve learned the value of hard work, resilience and pursuit of excellence.
-                    The principles I've learned studying these practices for 15+ years had guided me through my Computer Science BS.c degree, achieved with Honors. 
+                    The principles I&apos;ve learned studying these practices for 15+ years had guided me through my Computer Science BS.c degree, achieved with Honors. 
                     <p>
                     I always approach challenges and collaboration with humility, hoping to learn from others. 
                     </p>
