@@ -30,8 +30,24 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy on Cloudflare Pages
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is configured for static export and deploys to [Cloudflare Pages](https://pages.cloudflare.com/) (marcchami.com).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Deploy with Wrangler (CLI)
+
+From the app directory (where `package.json` and `wrangler.toml` live):
+
+1. Install dependencies: `npm install`
+2. Log in to Cloudflare: `npx wrangler login`
+3. Create the Pages project (first time only): `npx wrangler pages project create marcchami-com`
+4. Deploy: `npm run deploy`
+
+This builds the site and uploads the `out` directory to the **marcchami-com** Pages project. Configure the custom domain marcchami.com in **Workers & Pages** > **marcchami-com** > **Custom domains**.
+
+### Deploy with Git integration
+
+1. Push your code to GitHub/GitLab.
+2. In [Cloudflare Dashboard](https://dash.cloudflare.com/) go to **Workers & Pages** > **Create** > **Pages** > **Connect to Git**.
+3. Select your repo and set **Root directory:** `marcchami.com`, **Build command:** `npm run build`, **Build output directory:** `marcchami.com/out` (path from repo root).
+4. Add custom domain marcchami.com in the project settings.

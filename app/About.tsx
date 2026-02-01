@@ -5,7 +5,7 @@ const About = () => {
             <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary"> 
 
                 
-                <p > 
+                <p> 
                 A proven Software Engineer delivering high-quality software solutions in a professional settings for more than 6 years.
                 My passion for develping software is mainly demonstrated through my diverse portfolio of innovative projects, all inspired by personal growth.<br></br> <br></br>
                 I am deeply committed to creating a positive change in the world, a journey that begins with persistentence and an open mind. 

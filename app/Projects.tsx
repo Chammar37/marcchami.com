@@ -1,7 +1,33 @@
 const Projects = () => {
     return (
         <div className="flex-col space-y-4 text-primary"> 
+        <br></br>
         <span id="projects"> Projects {'>'} </span>
+            <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary ">
+                <div> [Book Map]
+                    <form target="_blank" action="https://github.com/scrinc" className="inline-block">
+                            <button>
+                            <svg className="inline-block ml-1 mb-1" width="16" height="16"viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 4L12 12M20 4V8.5M20 4H15.5M19 12.5V16.8C19 17.9201 19 18.4802 18.782 18.908C18.5903 19.2843 18.2843 19.5903 17.908 19.782C17.4802 20 16.9201 20 15.8 20H7.2C6.0799 20 5.51984 20 5.09202 19.782C4.71569 19.5903 4.40973 19.2843 4.21799 18.908C4 18.4802 4 17.9201 4 16.8V8.2C4 7.0799 4 6.51984 4.21799 6.09202C4.40973 5.71569 4.71569 5.40973 5.09202 5.21799C5.51984 5 6.07989 5 7.2 5H11.5" stroke="#6C848D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </button>
+                    </form>
+                </div>
+                <div className="justified">
+                    <p className="">Semantic book search using AI and vector embeddings. Discover thematically similar books by meaning instead of keywords, with an interactive node graph and Claude-generated explanations.</p>
+                    <button disabled className="px-2 me-2 mb-2 text-xs outline-none bg-white rounded-lg border">
+                        react
+                    </button>
+                    <button disabled className="px-2 me-2 mb-2 text-xs outline-none bg-white rounded-lg border">
+                        fastapi
+                    </button>
+                    <button disabled className="px-2 me-2 mb-2 text-xs outline-none bg-white rounded-lg border">
+                        qdrant
+                    </button>
+                    <button disabled className="px-2 me-2 mb-2 text-xs outline-none bg-white rounded-lg border">
+                        claude api
+                    </button>
+                </div>
+            </div>
+
             <div className="ml-2/10 mr-3/20 md:ml-3/20 md:mr-3/20 text-primary ">
                 <div> [Album Recommender] 
                     <form target="_blank" action="https://github.com/Chammar37/Album-Recommender" className="inline-block">
