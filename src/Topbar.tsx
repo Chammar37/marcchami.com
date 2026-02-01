@@ -1,7 +1,6 @@
 import Header from "./Header"
 import Sidebar from "./Sidebar"
 import Socials from "./Socials"
-import './globals.css';
 
 const Topbar = () => {
     return (
@@ -9,8 +8,8 @@ const Topbar = () => {
             <div className="grid grid-cols-1 h-52 md:grid-cols-3 md:min-h-56 ">
                 <div className="hidden md:flex col-span-1">
                     <Sidebar/>
-                </div>    
-                
+                </div>
+
                 <div className="flex col-span-1 justify-center ">
                     <Header/>
                 </div>
@@ -19,10 +18,6 @@ const Topbar = () => {
                     <Socials/>
                 </div>
             </div>
-
-            {/* <div className="flex grid-cols-3 justify-center space-x-2 p-4 w-full md:hidden ">
-                <Socials/>
-            </div> */}
         </>
     );
 }

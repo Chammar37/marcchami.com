@@ -4,19 +4,13 @@
 
 @font-face {
     font-family: 'B612 Mono';
-    src: url('../B612_Mono/B612Mono-Regular.ttf') format('truetype');
+    src: url('/B612_Mono/B612Mono-Regular.ttf') format('truetype');
   }
 
 :root {
   background-color: #d4dcda;
-  /* opacity: 0.39; */
-
 }
-
-
 
 .main-div{
   font-family: B612 Mono, monospace;
-  
-
 }
